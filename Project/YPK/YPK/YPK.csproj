@@ -126,6 +126,8 @@
     <Content Include="CDN\Themes\1\css\ypk.css" />
     <Content Include="CDN\Themes\1\images\cocks.jpg" />
     <Content Include="CDN\Themes\1\images\cow.jpg" />
+    <Content Include="CDN\Themes\1\images\favicon.ico" />
+    <Content Include="CDN\Themes\1\images\favicon.png" />
     <Content Include="CDN\Themes\1\images\menu-baseline.png" />
     <Content Include="CDN\Themes\1\images\pig.jpg" />
     <Content Include="CDN\Themes\1\images\selected-menu.png" />
