@@ -113,13 +113,25 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CDN\Js\common.js" />
     <Content Include="CDN\Js\Lib\angular-sanitize.js" />
     <Content Include="CDN\Js\Lib\angular.js" />
+    <Content Include="CDN\Js\Lib\coin-slider.js" />
+    <Content Include="CDN\Js\Lib\coin-slider.min.js" />
     <Content Include="CDN\Js\Lib\jquery-1.10.2.js" />
     <Content Include="CDN\Js\Lib\jquery-1.10.2.min.js" />
     <Content Include="CDN\Js\Lib\jquery-ui-1.10.4.js" />
     <Content Include="CDN\Js\Lib\jquery-ui-1.10.4.min.js" />
     <Content Include="CDN\Js\Lib\jquery.extend.js" />
+    <Content Include="CDN\Themes\1\css\ypk.css" />
+    <Content Include="CDN\Themes\1\images\cocks.jpg" />
+    <Content Include="CDN\Themes\1\images\cow.jpg" />
+    <Content Include="CDN\Themes\1\images\menu-baseline.png" />
+    <Content Include="CDN\Themes\1\images\pig.jpg" />
+    <Content Include="CDN\Themes\1\images\selected-menu.png" />
+    <Content Include="CDN\Themes\1\images\sewage.jpg" />
+    <Content Include="CDN\Themes\1\images\sky-grassland.jpg" />
+    <Content Include="CDN\Themes\1\images\sprite.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -182,6 +194,8 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\craftyslide.js" />
+    <Content Include="Scripts\craftyslide.min.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -215,7 +229,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="CDN\Themes\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

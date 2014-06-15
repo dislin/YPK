@@ -1,75 +1,35 @@
-﻿body
-{
-    font-size: .85em;
-    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
-    color: #232323;
-    background-color: #fff;
-}
+﻿/* CSS Document */
+/*--------------------- CSS Reset --------------------------------------------- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, textarea, p, blockquote, th, td{margin:0; padding:0}
+fieldset, img, button{border:none; margin:0; padding:0}
+ol, ul{list-style:none}
+caption, th{text-align:left}
+q:before, q:after{content:""}
+abbr, acronym{border:0}
 
-header,
-footer,
-nav,
-section {
-    display: block;
-}
+body{line-height:1}
+html, body{height:100%}
+ol, ul{list-style:none}
 
-/* Styles for basic forms
------------------------------------------------------------*/
+table{border-collapse:collapse; border-spacing:0}
+/* --------- End of CSS Reset ------------------------------------------------*/
+/* Typography */
+body {font-family: Microsoft YaHei, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu; font-size:82%; }
+body.en-gb { font-size: 69%; }
 
-fieldset 
-{
-    border:1px solid #ddd;
-    padding:0 1.4em 1.4em 1.4em;
-    margin:0 0 1.5em 0;
-}
-
-legend 
-{
-    font-size:1.2em;
-    font-weight: bold;
-}
-
-textarea 
-{
-    min-height: 75px;
-}
-
-.editor-label 
-{
-    margin: 1em 0 0 0;
-}
-
-.editor-field 
-{
-    margin:0.5em 0 0 0;
-}
+/* Common */
+.fl, .flft, .float-l{float:left}
+.fr, .frgt, .float-r{float:right}
+.clear-fl, .clear-l{clear:left}
+.clear-fr, .clear-r{clear:right}
+.clear-both, .clear-b{clear:both}
+.align-c{text-align:center}
+.align-j{text-align:justify}
+.m-top20{margin-top:15px}
+a.link-style1:link, a.link-style1:visited, a.link-style1:active{color:#685127; text-decoration:none}
+a.link-style1:hover{color:#ae7000; text-decoration:underline;}
+.negative {color:Red;}
 
 
-/* Styles for validation helpers
------------------------------------------------------------*/
-.field-validation-error
-{
-    color: #ff0000;
-}
-
-.field-validation-valid
-{
-    display: none;
-}
-
-.input-validation-error
-{
-    border: 1px solid #ff0000;
-    background-color: #ffeeee;
-}
-
-.validation-summary-errors
-{
-    font-weight: bold;
-    color: #ff0000;
-}
-
-.validation-summary-valid
-{
-    display: none;
-}
+.page-wrapper { width: 100%; height: 100%; }
+.billboard-header { width: 100%; height: 651px; }

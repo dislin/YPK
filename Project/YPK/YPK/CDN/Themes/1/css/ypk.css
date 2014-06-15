@@ -1,0 +1,88 @@
+﻿/* CSS Document */
+/*--------------------- CSS Reset --------------------------------------------- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, textarea, p, blockquote, th, td{margin:0; padding:0}
+fieldset, img, button{border:none; margin:0; padding:0}
+ol, ul{list-style:none}
+caption, th{text-align:left}
+q:before, q:after{content:""}
+abbr, acronym{border:0}
+
+body{line-height:1}
+html, body{height:100%}
+ol, ul{list-style:none}
+
+table{border-collapse:collapse; border-spacing:0}
+/* --------- End of CSS Reset ------------------------------------------------*/
+/* Typography */
+body {font-family: Microsoft YaHei, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu; font-size:82%; }
+body.en-gb { font-size: 69%; }
+
+/* Common */
+.fl, .flft, .float-l{float:left}
+.fr, .frgt, .float-r{float:right}
+.clear-fl, .clear-l{clear:left}
+.clear-fr, .clear-r{clear:right}
+.clear-both, .clear-b{clear:both}
+.align-c{text-align:center}
+.align-j{text-align:justify}
+.m-top20{margin-top:15px}
+a.link-style1:link, a.link-style1:visited, a.link-style1:active{color:#685127; text-decoration:none}
+a.link-style1:hover{color:#ae7000; text-decoration:underline;}
+.negative {color:Red;}
+
+
+.page-wrapper { width: 100%; height: 100%; min-width: 960px; }
+.billboard-header { width: 100%; height: 651px; background: url(../images/sky-grassland.jpg) no-repeat top center; }
+.inner-header { width: 960px; margin: 0 auto; height: 115px; }
+.logo { float: left; width: 242px; height: 90px; margin-top: 22px; background: url(../images/sprite.png) no-repeat -6px -7px; }
+.languages-bar, .menu-bar-c { width: 632px; height: 20px; float: right; }
+.languages-bar { margin-top: 5px; }
+.lang { float: right; text-decoration: none; height: 21px; line-height: 20px; color: #fff; margin: 0 19px; padding-left: 25px; }
+.lang:hover{ color: #f2e626 }
+.lang.en-gb {background: url(../images/sprite.png) no-repeat -476px -195px;}
+.lang.zh-cn {background: url(../images/sprite.png) no-repeat -476px -135px;}
+.lang.zh-tw {background: url(../images/sprite.png) no-repeat -476px -166px;}
+.menu-bar-c { margin-top: 43px; height: 35px; background: url(../images/menu-baseline.png) no-repeat bottom center; }
+.menu, .menu-item-c { display: inline-block; float: right; font-size: 1.1em; }
+.menu-item { display: inline-block; height: 31px; padding: 0 19px; color: #fff; text-decoration: none; }
+.menu-item:hover, .menu-item.selected { color: #f2e626; background: url(../images/selected-menu.png) no-repeat bottom center; }
+.slideshow-c { margin: 0 auto; width: 960px; height: 445px; margin-top: 29px; }
+
+.content-body { width: 960px; margin: 0 auto; margin-top: 40px;  color: #7a7a7a; font-size: 1.2em; line-height: 1.6em; }
+.text { margin: 20px 0; }
+.news-content { float: left; width: 600px; padding-right: 30px; border-right: 1px solid #65e64f; }
+.about-content { width: 300px; margin-left: 25px; float: left; }
+.title { font-size: 30px; font-weight: normal; height: 53px; line-height: 53px; padding-left: 60px; color: #0f6801; }
+.title.news {  background: url(../images/sprite.png) no-repeat -449px -4px;  }
+.title.about { background: url(../images/sprite.png) no-repeat -449px -68px;  }
+.news-c { margin-top: 10px; }
+.news-item { display: block; height: 50px; overflow: hidden; text-overflow:ellipsis; line-height: 50px; border-bottom: 1px solid #efefef; color: #7a7a7a; text-decoration: none; }
+.news-date { display: inline-block; margin-right: 20px; color: #aaa; }
+.news-item:hover .news-title { color: #38c320; }
+.btn-more-c { text-align: right; padding-top: 30px; }
+.btn-more { display: inline-block; height: 40px; padding: 0 25px; line-height: 40px; background: #5be444; color: #fff; text-decoration: none; }
+.btn-more:hover { background: #38c320 }
+
+.footer { width: 100%; height: 75px; margin-top: 50px; background: #5be444; color: #fff; }
+.footer-content { width: 960px; margin: 0 auto; text-align: center; line-height: 25px; }
+.contact-item { display: inline-block; margin: 13px 30px 0 0; }
+
+/* Round corner */
+.btn-more { -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; }
+.cs-button-coin-slider { -webkit-border-radius: 10px; border-radius: 10px; }
+
+
+
+
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a { margin-left: 7px; height: 10px; width: 10px; float: left; border: 1px solid #fff; color: #B8C4CF; text-indent: -1000px; }
+.cs-active { background-color: #fff; color: #FFFFFF; }
+
+.cs-title { width: 545px; padding: 10px; background-color: #000000; color: #FFFFFF; }
+
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
