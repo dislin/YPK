@@ -10,6 +10,16 @@
 </head>
 
 <body>
-    @RenderBody()
+    
+    <div class="page-wrapper">
+    
+        @Html.Partial("~/Views/Shared/_Header.cshtml")
+
+        @RenderBody()
+
+        @Html.Partial("~/Views/Shared/_Footer.cshtml")
+
+    
+    </div>
 </body>
 </html>
