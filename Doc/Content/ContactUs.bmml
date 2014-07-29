@@ -1,0 +1,108 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="745" measuredH="641" mockupW="685" mockupH="620">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="60" y="21" w="685" h="620" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties/>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="82" y="105" w="138" h="91" measuredW="714" measuredH="502" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../../Google%2520%25E9%259B%25B2%25E7%25AB%25AF%25E7%25A1%25AC%25E7%25A2%259F/YPKbiotech%2520Website/Image/01%2520logo/logo02.jpg</src>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::ButtonBar" x="339" y="169" w="-1" h="-1" measuredW="393" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>4</selectedIndex>
+        <text>%u9996%u9801%2C%20%u95DC%u65BC%u6E90%u6C9B%u5EB7%2C%20%u751F%u7269%u98FC%u6599%u9175%u7D20%2C%20%u6C61%u6C34%u8655%u7406%2C%20%u806F%u7D61%u6211%u5011</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::LinkBar" x="662" y="141" w="-1" h="-1" measuredW="70" measuredH="19" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u7E41%u9AD4%u4E2D%u6587%2C%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Arrow" x="185" y="111" w="71" h="30" measuredW="150" measuredH="100" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>bottom</direction>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="263" y="99" w="-1" h="-1" measuredW="29" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Image" x="60" y="99" w="681" h="143" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::TabBar" x="82" y="278" w="652" h="268" measuredW="150" measuredH="100" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <selectedIndex>0</selectedIndex>
+        <text>%u806F%u7D61%u4EBA</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Paragraph" x="158" y="558" w="462" h="46" measuredW="275" measuredH="80" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u516C%u53F8%u5730%u5740%uFF1A%u53F0%u7063%u65B0%u7AF9%u7E23%u7AF9%u5317%u5DFF%u4E09%u6C11%u8DEF95%u865F2%u6A13%u4E4B1.%20%u8AEE%u8A62%u96FB%u8A71%uFF1A+886-3-5558980%0A%u96FB%u5B50%u4FE1%u7BB1%uFF1A2519940881@qq.com%0A%A9%202013%20%u6E90%u6C9B%u5EB7%u751F%u6280%u6709%u9650%u516C%u53F8.%20All%20Rights%20Reserved</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Label" x="101" y="337" w="76" h="-1" measuredW="68" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u806F%u7D61%u4EBA%u59D3%u540D%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Label" x="208" y="337" w="54" h="-1" measuredW="39" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u912D%u80B2%u660E</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Label" x="101" y="373" w="84" h="-1" measuredW="81" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u4E2D%u570B%u806F%u7D61%u96FB%u8A71%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Label" x="101" y="432" w="76" h="-1" measuredW="25" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>QQ%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="101" y="460" w="76" h="-1" measuredW="29" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u5FAE%u4FE1%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Label" x="101" y="488" w="76" h="-1" measuredW="29" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u7DB2%u5740%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="208" y="373" w="116" h="-1" measuredW="110" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>+86-13970031268</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Label" x="208" y="432" w="87" h="-1" measuredW="73" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2519940881</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Label" x="208" y="460" w="102" h="-1" measuredW="91" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>alancheng1028</text>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Label" x="208" y="488" w="162" h="-1" measuredW="159" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>http%3A//www.ypkbiotech.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="101" y="402" w="99" h="-1" measuredW="94" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u65B0%u52A0%u5761%u806F%u7D61%u96FB%u8A71%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Label" x="208" y="402" w="116" h="-1" measuredW="89" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>+65-97528555</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
