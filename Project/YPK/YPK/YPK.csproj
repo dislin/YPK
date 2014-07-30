@@ -106,7 +106,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Text.zh-CN.resx</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\AboutUsController.cs" />
+    <Compile Include="Controllers\AnimalFeedAndFermentsController.cs" />
+    <Compile Include="Controllers\ContactUsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SeawageDisposalController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -124,12 +128,28 @@
     <Content Include="CDN\Js\Lib\jquery-ui-1.10.4.min.js" />
     <Content Include="CDN\Js\Lib\jquery.extend.js" />
     <Content Include="CDN\Themes\1\css\ypk.css" />
+    <Content Include="CDN\Themes\1\images\aboutus-philosophy.jpg" />
+    <Content Include="CDN\Themes\1\images\aboutus-region-map.jpg" />
+    <Content Include="CDN\Themes\1\images\aboutus-vision.jpg" />
+    <Content Include="CDN\Themes\1\images\aboutus.jpg" />
+    <Content Include="CDN\Themes\1\images\co1.jpg" />
+    <Content Include="CDN\Themes\1\images\co2.jpg" />
+    <Content Include="CDN\Themes\1\images\co3.jpg" />
+    <Content Include="CDN\Themes\1\images\co4.jpg" />
     <Content Include="CDN\Themes\1\images\cocks.jpg" />
+    <Content Include="CDN\Themes\1\images\contactus.jpg" />
     <Content Include="CDN\Themes\1\images\cow.jpg" />
     <Content Include="CDN\Themes\1\images\favicon.ico" />
     <Content Include="CDN\Themes\1\images\favicon.png" />
+    <Content Include="CDN\Themes\1\images\livestock-usage1.jpg" />
+    <Content Include="CDN\Themes\1\images\livestock-usage2.jpg" />
     <Content Include="CDN\Themes\1\images\menu-baseline.png" />
     <Content Include="CDN\Themes\1\images\pig.jpg" />
+    <Content Include="CDN\Themes\1\images\r-arrow.png" />
+    <Content Include="CDN\Themes\1\images\seawage.jpg" />
+    <Content Include="CDN\Themes\1\images\seawage1.jpg" />
+    <Content Include="CDN\Themes\1\images\seawage2.jpg" />
+    <Content Include="CDN\Themes\1\images\seawage3.jpg" />
     <Content Include="CDN\Themes\1\images\selected-menu.png" />
     <Content Include="CDN\Themes\1\images\sewage.jpg" />
     <Content Include="CDN\Themes\1\images\sky-grassland.jpg" />
@@ -195,6 +215,7 @@
       <LastGenOutput>Text.zh-CN.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Content Include="CDN\Download\Animal feed and ferments report.pdf" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -228,6 +249,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\AboutUs\index.cshtml" />
+    <Content Include="Views\AnimalFeedAndFerments\index.cshtml" />
+    <Content Include="Views\SeawageDisposal\index.cshtml" />
+    <Content Include="Views\ContactUs\index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
