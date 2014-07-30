@@ -57,6 +57,7 @@ a.link-style1:hover{color:#ae7000; text-decoration:underline;}
 .scrolling .sticky-header {  display: block; position: fixed; top: 0; z-index: 999; width: 100%; height: 65px;  background: url(../images/sky-grassland.jpg) no-repeat top center; }
 .scrolling .logo { width: 137px; height: 51px; margin-top: 8px; background: url(../images/sprite.png) no-repeat -6px -185px; }
 .scrolling .menu-bar-c { margin-top: 12px; }
+.scrolling .slideshow-c { margin-top: 79px; }
 .scrolling .inner-header { height: 65px; }
 .pd20 { padding: 20px; }
 
