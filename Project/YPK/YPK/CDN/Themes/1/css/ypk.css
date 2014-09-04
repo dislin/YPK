@@ -37,6 +37,7 @@ a.link-style1:hover{color:#ae7000; text-decoration:underline;}
 .seawagedisposal .billboard-header { width: 100%; height: 651px; background: url(../images/seawage.jpg) no-repeat top center; }
 .contactus .billboard-header { height: 424px; background: url(../images/contactus.jpg) no-repeat top center; }
 .aboutus .billboard-header { height: 424px; background: url(../images/aboutus.jpg) no-repeat top center; }
+.news .billboard-header { height: 424px; background: url(../images/news-banner.jpg) no-repeat top center; }
 /*.inner-header-c { position: fixed; z-index: 999; width: 100%; height: 115px;  background: url(../images/sky-grassland.jpg) no-repeat top center; }*/
 .inner-header { width: 960px; margin: 0 auto; height: 115px; }
 .logo { float: left; width: 242px; height: 90px; margin-top: 22px; background: url(../images/sprite.png) no-repeat -6px -7px; }
@@ -65,6 +66,7 @@ a.link-style1:hover{color:#ae7000; text-decoration:underline;}
 .content-body { width: 960px; margin: 0 auto; margin-top: 40px;  color: #7a7a7a; font-size: 1.2em; line-height: 1.6em; }
 .text { margin: 20px 0; }
 .news-content { float: left; width: 600px; padding-right: 30px; border-right: 1px solid #65e64f; }
+.news-listing { float: none; width: 100%; padding-right: 0; border-right: none; }
 .about-content { width: 300px; margin-left: 25px; float: left; }
 .title, .tab-title { font-size: 30px; font-weight: normal; height: 53px; line-height: 53px; padding-left: 60px; color: #0f6801; }
 .tab-title {padding: 0 0 0 0;}
@@ -173,3 +175,18 @@ a.link-style1:hover{color:#ae7000; text-decoration:underline;}
 
 .cs-prev, 
 .cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+
+
+/* Error and maintenanec page*/
+body.error { background: #428523 url(../images/m-bg.jpg) no-repeat top center;}
+.error-page { width: 800px; height: 500px; margin: 0 auto; color: #fff; }
+.error-404-txt { font-size: 150px; color: #fff; text-align: center; }
+.error-icon { margin-top: 80px; }
+.error-desc { width: 500px; font-size: 24px; color: #000; margin-top: 20px; line-height: 30px;}
+.inline-link { color: #000; }
+.error-maintenance-icon { margin-top: 12px; display: inline-block; float: left; width: 120px; height: 230px; background:url(../images/maintenance.png) no-repeat top center;}
+.error-maintenance-txt { float: left; width: 500px; }
+.m-txt-title { font-size: 30px; color: #fff; margin: 55px 0 0 10px; text-transform: uppercase; color: #fff; }
+.error-maintenance-txt .error-desc { margin: 40px 0 0 10px; }
+.con-c .label { margin-left: 10px; color: #000; }
+.con-c .value { font-weight: bold; }

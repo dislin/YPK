@@ -49,6 +49,11 @@ $(function () {
 
     });
 
+    //$(".ui-tabs-nav").fixer(function () {
+
+    //    gap: 80
+    //});
+
     
 
 });

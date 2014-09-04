@@ -109,7 +109,9 @@
     <Compile Include="Controllers\AboutUsController.cs" />
     <Compile Include="Controllers\AnimalFeedAndFermentsController.cs" />
     <Compile Include="Controllers\ContactUsController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Controllers\SeawageDisposalController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -143,7 +145,10 @@
     <Content Include="CDN\Themes\1\images\favicon.png" />
     <Content Include="CDN\Themes\1\images\livestock-usage1.jpg" />
     <Content Include="CDN\Themes\1\images\livestock-usage2.jpg" />
+    <Content Include="CDN\Themes\1\images\m-bg.jpg" />
+    <Content Include="CDN\Themes\1\images\maintenance.png" />
     <Content Include="CDN\Themes\1\images\menu-baseline.png" />
+    <Content Include="CDN\Themes\1\images\news-banner.jpg" />
     <Content Include="CDN\Themes\1\images\pig.jpg" />
     <Content Include="CDN\Themes\1\images\r-arrow.png" />
     <Content Include="CDN\Themes\1\images\seawage.jpg" />
@@ -253,6 +258,11 @@
     <Content Include="Views\AnimalFeedAndFerments\index.cshtml" />
     <Content Include="Views\SeawageDisposal\index.cshtml" />
     <Content Include="Views\ContactUs\index.cshtml" />
+    <Content Include="Views\news\newsListing.cshtml" />
+    <Content Include="Views\news\newsDetails.cshtml" />
+    <Content Include="Views\Error\_404.cshtml" />
+    <Content Include="Views\Shared\_ErrorLayout.cshtml" />
+    <Content Include="Views\Error\maintenance.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
